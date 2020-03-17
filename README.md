@@ -119,7 +119,9 @@ Try modifying the color of each object
 
 ### Creating models: Blender
 
+
 **Clone the github repo if you haven't already** or download files from the model folders at [https://github.com/DevinBayly/tech-core-presentation](https://github.com/DevinBayly/tech-core-presentation) using the download option
+
 ![](./20200317T165140068020.png)
 
 Installation
@@ -129,4 +131,21 @@ Installation
 Loading models
 
 * From the files drop down select import
-* Select which ever folder you
+* Select which ever folder you want to make a model of 
+* Import it
+
+Exporting as `.glb`
+
+* Select Files then export select `glb`
+* follow the upload steps for importing into Aframe
+
+
+## Finishing and extra topics
+
+Thanks for listening and I'll take all questions that haven't already been asked
+
+With time, we can do any of a couple of additional topics.
+
+* Aframe component creation 
+* Blender UV mapping
+* Hubs Social VR
