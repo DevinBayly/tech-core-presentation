@@ -84,10 +84,49 @@ Aframe is
 
 To get started click this [link](http://glitch.com/~aframe) and select **remix your own**
 
-![pic](/home/lil/Pictures/20200317T161605445734.png)
+![pic](./20200317T161605445734.png)
 
 ### Viewing and Modifying
 
 Congrats you have just started your glitch application!
 
 To rapidly view the changes you've made in your code click the sunglasses button with the word **Show** in it, and select **next to the code**
+
+
+![](./20200317T163443881078.png)
+
+Try modifying the color of each object
+
+* click "index.html" in the file browser at the left side
+* change `color="#4CC3D9"` to `color="...whatever you want..."`
+* experiment with modifying other aspects of the shapes
+
+* These are components but we will talk more about them if we have time
+
+### Models and WebVR
+
+* download some of the models from the github [khronosgroup samples](https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0) selecting the `.glb/glTF-Binary` file format
+* upload them via the **Upload an Asset** button
+
+![](20200317T164415324882.png)
+
+* copy the link of the asset
+* paste into url part of 
+    * `      <a-entity gltf-model="url(...here...)" scale="100 100 100"></a-entity>
+`
+* remove the `?v=...` text at the end of the link
+* put that `<a-entity` into the file
+
+### Creating models: Blender
+
+**Clone the github repo if you haven't already** or download files from the model folders at [https://github.com/DevinBayly/tech-core-presentation](https://github.com/DevinBayly/tech-core-presentation) using the download option
+![](./20200317T165140068020.png)
+
+Installation
+
+* Head [here](https://www.blender.org/) to download Blender 2.8
+
+Loading models
+
+* From the files drop down select import
+* Select which ever folder you
