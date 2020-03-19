@@ -8,6 +8,19 @@
 
 **Team: Data & Visualization**
 
+## Pre-presentation setup
+
+
+**Clone the github repo if you haven't already** or download files from the model folders at [https://github.com/DevinBayly/tech-core-presentation](https://github.com/DevinBayly/tech-core-presentation) using the download option
+
+![](./20200317T165140068020.png)
+
+Installation of Blender
+
+* Head [here](https://www.blender.org/) to download Blender 2.8
+
+
+
 ## Introduction
 ### Background
 
@@ -21,6 +34,7 @@
 * Project request form for Data & Visualization Consulting [https://rtdv-intake.glitch.me](https://rtdv-intake.glitch.me)
 * baylyd@email.arizona.edu
 * [DevinBayly@github](https://github.com/DevinBayly)
+
 
 
 ### Material to cover
