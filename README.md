@@ -31,9 +31,9 @@ Installation of Blender
 
 **Links**
 
+* Project Showcase [https://rtdatavis.github.io](https://rtdatavis.github.io)
 * Project request form for Data & Visualization Consulting [https://rtdv-intake.glitch.me](https://rtdv-intake.glitch.me)
-* baylyd@email.arizona.edu
-* [DevinBayly@github](https://github.com/DevinBayly)
+* Contact: [vislab-consult@email.arizona.list](vislab-consult@email.arizona.list), baylyd@email.arizona.edu, [DevinBayly@github](https://github.com/DevinBayly)
 
 
 
@@ -47,7 +47,6 @@ Installation of Blender
     * Incorporating modeling into WebVR
 * Additional topics
     * Intermediate level scripting for Aframe
-    * UV material styling in Blender
     * Social VR in Hubs by Mozilla
 
 ## WebVR
@@ -119,19 +118,11 @@ Try modifying the color of each object
 
 ### Models and WebVR
 
-* download some of the models from the github [khronosgroup samples](https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0) selecting the `.glb/glTF-Binary` file format
-* upload them via the **Upload an Asset** button
+* download some of the models from the  google poly site
+* select download as gltf updated if possible
+* get ready to modify this file in Blender
 
-![](20200317T164415324882.png)
-
-* copy the link of the asset
-* paste into url part of 
-    * `      <a-entity gltf-model="url(...here...)" scale="100 100 100"></a-entity>
-`
-* remove the `?v=...` text at the end of the link
-* put that `<a-entity` into the file
-
-### Creating models: Blender
+### Creating/Editing models: Blender
 
 
 **Clone the github repo if you haven't already** or download files from the model folders at [https://github.com/DevinBayly/tech-core-presentation](https://github.com/DevinBayly/tech-core-presentation) using the download option
@@ -145,21 +136,43 @@ Installation
 Loading models
 
 * From the files drop down select import
-* Select which ever folder you want to make a model of 
-* Import it
+* Select  the `.gltf` model you downloaded from google poly
 
-Exporting as `.glb`
+* we are going to shift the center of the model, and duplicate it for fun
 
-* Select Files then export select `glb`
+* then perform an export as `.glb`
+
 * follow the upload steps for importing into Aframe
+
+## Adding files to Glitch
+
+* upload them via the **Upload an Asset** button
+* select the `.glb` file you created
+
+![](20200317T164415324882.png)
+
+* copy the link of the asset
+* paste into url part of 
+    * `      <a-entity gltf-model="url(...here...)" scale="100 100 100"></a-entity>
+`
+* remove the `?v=...` text at the end of the link
+* put that `<a-entity` into the file
 
 
 ## Finishing and extra topics
+
+Here's the final bit [https://squirrels-galore-tada.glitch.me/](https://squirrels-galore-tada.glitch.me/)
+
+You can go back and experiment with any of the steps now
+
+* mess with the component attributes
+* download different models
+* manipulate them in blender
+* use VR or AR on your phone with the scene
 
 Thanks for listening and I'll take all questions that haven't already been asked
 
 With time, we can do any of a couple of additional topics.
 
 * Aframe component creation 
-* Blender UV mapping
 * Hubs Social VR
